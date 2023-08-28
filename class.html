@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>class</title>
+    <style>
+        .xyz {
+            color: red;
+            background-color: blue;
+            padding: 20px;
+            margin: 30px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <!-- <h1 id="h" class="xyz">Heading</h1> -->
+    <h1 id="h" >Heading</h1>
+
+    <script>
+
+        let h1_tag=document.getElementById('h');
+
+        //h1_tag.className ="xyz";
+
+        h1_tag.classList.add("xyz");
+
+       /*  h1_tag.style.color="white";
+        h1_tag.style.background ="coral";
+        h1_tag.style.padding="20px";
+        h1_tag.style.margin="20px";
+        h1_tag.style.border="2px solid black"; */
+
+    </script>
+</body>
+</html>
